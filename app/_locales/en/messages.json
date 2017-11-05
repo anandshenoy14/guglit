@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Guglit",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Makes searching with google easier",
+    "description": "The description of the application"
+  }
+}
