@@ -1,0 +1,1 @@
+This chrome extension will provide a key mechanism to google words on a webpage.
