@@ -1,17 +1,17 @@
 {
-  "name": "__MSG_appName__",
+  "name": "Guglit",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "__MSG_appDescription__",
+  "description": "A chrome extension that allows you to google easily!",
   "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
+    "16": "images/guglit_icon_48x48.png",
+    "128": "images/guglit_icon_48x48.png"
   },
   "default_locale": "en",
   "background": {
     "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
+      "scripts.babel/chromereload.js",
+      "scripts.babel/background.js"
     ]
   },
   "permissions": [
@@ -48,7 +48,7 @@
         "https://*/*"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "scripts.babel/contentscript.js"
       ],
       "run_at": "document_end",
       "all_frames": false
@@ -59,13 +59,13 @@
   },
   "page_action": {
     "default_icon": {
-      "19": "images/icon-19.png",
-      "38": "images/icon-38.png"
+      "19": "images/guglit_icon_48x48.png",
+      "38": "images/guglit_icon_48x48.png"
     },
     "default_title": "Guglit",
     "default_popup": "popup.html"
   },
   "web_accessible_resources": [
-    "images/icon-48.png"
+    "images/guglit_icon_48x48.png"
   ]
 }
