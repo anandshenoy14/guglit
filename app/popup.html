@@ -11,13 +11,20 @@
     <!-- endbuild -->
   </head>
   <body>
-    <h1>'Allo, 'Allo!</h1>
-
+    <h1>Chrome Extension which helps you Google Easier</h1>
+    <h3>
+      Select the word on a webpage and Press Shift and G to google the word
+    </h3>
     <!-- build:js scripts/popup-vendor.js -->
     <!-- bower:js -->
     <!-- endbower -->
     <!-- endbuild -->
-
+    <div id="lblOfList">
+    </div>
+    <div>
+      <ul id="listOfUrls">
+      </ul>
+    </div>
     <!-- build:js scripts/popup.js -->
     <script src="scripts.babel/popup.js"></script>
     <!-- endbuild -->
